@@ -9,7 +9,7 @@ function averagePair(sortedInts, targetAvg) {
 
     while (left < right) {
 
-        let workingAvg = ((sortedInts[left] + sortedInts[right]) / 2);
+        const workingAvg = ((sortedInts[left] + sortedInts[right]) / 2);
 
         if (workingAvg === targetAvg) {
             return true;

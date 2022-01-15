@@ -1,14 +1,11 @@
 "use strict";
 
-
-// add whatever parameters you deem necessary
-// sorted
-
-
+/** Receives a sorted array of ints and a target average. Returns true if the sorted array contains a pair of values
+ * that equal the target when averaged. Otherwise, returns false.
+ */
 function averagePair(sortedInts, targetAvg) {
     let left = 0;
     let right = sortedInts.length - 1;
-
 
     while (left < right) {
 
@@ -25,7 +22,6 @@ function averagePair(sortedInts, targetAvg) {
         else {
             right--;
         }
-
 
     }
     return false;

@@ -1,3 +1,5 @@
+"use strict";
+
 // add whatever parameters you deem necessary & write doc comment
 function canConstructWord(word, letters) {
     let freqWord = countFreq(word);

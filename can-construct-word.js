@@ -1,6 +1,7 @@
 "use strict";
 
-/** Receives two strings, a word and some letters. Returns true if a word can be built with the letters given.
+/** Receives two strings, a word and some letters. 
+ * Returns true if a word can be built with the letters given.
  * Otherwise, returns false.
  */
 function canConstructWord(word, letters) {
@@ -12,11 +13,12 @@ function canConstructWord(word, letters) {
             return false;
         }
     }
-
     return true;
 }
 
-/** Accepts a string and returns a frequency count Map of the characters contained within the string. */
+/** Accepts a string 
+ *  returns a frequency count Map of the characters contained within the string.
+ */
 function countFreq(characters) {
     let freq = new Map();
     for (let char of characters) {

@@ -1,6 +1,7 @@
 "use strict";
 
-/** Accepts two positive integers. Returns true if the two numbers have the same frequency of digits. 
+/** Accepts two positive integers. 
+ * Returns true if the two numbers have the same frequency of digits. 
  * Otherwise, returns false */
 function sameFrequency(int1,int2) {
 
